@@ -1,24 +1,21 @@
 {
-  "name": "cli-personal-project",
+  "name": "greeting-from-a-box",
   "version": "1.0.0",
   "description": "",
   "main": "bin/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "greet": "./bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Oriianamendez/cli-personal-project.git"
+    "url": "git+ssh://github.com/Oriianamendez/greeting-from-a-box"
   },
   "author": "Oriianamendez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Oriianamendez/cli-personal-project/issues"
+    "url": "https://github.com/Oriianamendez/greeting-from-a-box/issues"
   },
-  "homepage": "https://github.com/Oriianamendez/cli-personal-project#readme",
+  "homepage": "https://github.com/Oriianamendez/greeting-from-a-box#readme",
   "dependencies": {
     "boxen": "4.0",
     "chalk": "2.4",
