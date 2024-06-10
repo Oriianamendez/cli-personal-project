@@ -10,7 +10,16 @@ const options = yargs.usage("Usage: -n <name>").option("n", {
   demandOption: true,
 }).argv;
 
-const greeting = chalk.white.bold(`Hello, ${options.name}! =)`);
+const various = yargs.usage("Usage: -h <hobbie>").option("h", {
+  alias: "hobbie",
+  describe: "Your hobbie",
+  type: "string",
+  demandOption: true,
+}).argv;
+
+const greeting = chalk.white.bold(
+  `Hello, ${options.name}! If you are tired, you should go/play \n${various.hobbie}.`
+);
 const boxOptions = {
   padding: 1,
   margin: 1,
